@@ -77,7 +77,7 @@ Not all programming languages support all of these constructs. The tag queries s
 
 ### Fully-qualified names
 
-For languages that support defining functions, methods, or other constructs within another structure, GitHub code navigation supports extracting fully-qualified names.
+For languages that support defining functions, methods, or other constructs within another structure, GitHub code navigation supports extracting fully-qualified names. Fully-qualified names are used to improve code navigation as well as the relevance of search results.
 
 Here is an example from our Java extractor. Given the following Java code:
 
@@ -119,6 +119,8 @@ To implement fully-qualified names for languages like Go, GitHub code navigation
 ```
 
 Our extractor uses the `@scope` capture to create the fully qualified name `Cat.Noise`.
+
+If your language supports nested constructs that are defined separately, include a `@scope` capture for best results with GitHub code navigation.
 
 ### File a request to add your language
 
