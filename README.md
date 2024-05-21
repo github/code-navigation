@@ -11,26 +11,26 @@ Search-based code navigation is implemented using the [Tree-sitter](https://tree
 
 Code navigation is supported for the following languages:
 
-| Language         | Search-based       | Precise            |
-|------------------|--------------------|--------------------|
-| Bash             | :heavy_check_mark: | :x:                |
-| C#               | :heavy_check_mark: | :x:                |
-| C++              | :heavy_check_mark: | :x:                |
-| CodeQL           | :heavy_check_mark: | :x:                |
-| Elixir           | :heavy_check_mark: | :x:                |
-| Go               | :heavy_check_mark: | :x:                |
-| JSX              | :heavy_check_mark: | :x:                |
-| Java             | :heavy_check_mark: | :x:                |
-| JavaScript       | :heavy_check_mark: | :x:                |
-| Lua              | :heavy_check_mark: | :x:                |
-| PHP              | :heavy_check_mark: | :x:                |
-| Protocol Buffers | :heavy_check_mark: | :x:                |
-| Python           | :heavy_check_mark: | :heavy_check_mark: |
-| Ruby             | :heavy_check_mark: | :x:                |
-| Scala            | :heavy_check_mark: | :x:                |
-| Starlark         | :heavy_check_mark: | :x:                |
-| Swift            | :heavy_check_mark: | :x:                |
-| Typescript       | :heavy_check_mark: | :heavy_check_mark: |
+| Language         | Search-based       | Precise                  |
+|------------------|--------------------|--------------------------|
+| Bash             | :heavy_check_mark: | :heavy_multiplication_x: |
+| C#               | :heavy_check_mark: | :heavy_multiplication_x: |
+| C++              | :heavy_check_mark: | :heavy_multiplication_x: |
+| CodeQL           | :heavy_check_mark: | :heavy_multiplication_x: |
+| Elixir           | :heavy_check_mark: | :heavy_multiplication_x: |
+| Go               | :heavy_check_mark: | :heavy_multiplication_x: |
+| JSX              | :heavy_check_mark: | :heavy_multiplication_x: |
+| Java             | :heavy_check_mark: | :heavy_multiplication_x: |
+| JavaScript       | :heavy_check_mark: | :heavy_multiplication_x: |
+| Lua              | :heavy_check_mark: | :heavy_multiplication_x: |
+| PHP              | :heavy_check_mark: | :heavy_multiplication_x: |
+| Protocol Buffers | :heavy_check_mark: | :heavy_multiplication_x: |
+| Python           | :heavy_check_mark: | :heavy_check_mark:       |
+| Ruby             | :heavy_check_mark: | :heavy_multiplication_x: |
+| Scala            | :heavy_check_mark: | :heavy_multiplication_x: |
+| Starlark         | :heavy_check_mark: | :heavy_multiplication_x: |
+| Swift            | :heavy_check_mark: | :heavy_multiplication_x: |
+| Typescript       | :heavy_check_mark: | :heavy_check_mark:       |
 
 
 If your programming language is not one of them, you can help us add it.
