@@ -7,6 +7,8 @@ GitHub code navigation helps you to read, navigate, and understand code by showi
 
 Search-based code navigation is implemented using the [Tree-sitter](https://tree-sitter.github.io/tree-sitter/) parser ecosystem. A few languages support precise code navigation, built with [stack graphs](https://github.com/github/stack-graphs).
 
+For more information, see "[Navigating code on GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/navigating-code-on-github)."
+
 ## Supported languages
 
 Code navigation is supported for the following languages:
