@@ -32,7 +32,6 @@ Code navigation is supported for the following languages:
 | Swift            | :heavy_check_mark: | :heavy_multiplication_x: |
 | Typescript       | :heavy_check_mark: | :heavy_check_mark:       |
 
-
 If your programming language is not one of them, you can help us add it.
 
 ## Adding code navigation for a new language
