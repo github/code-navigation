@@ -57,9 +57,9 @@ First, the language must be added to [Linguist](https://github.com/github-lingui
 
 ### Tree-sitter parser
 
-Next, we require a mature Tree-sitter parser for the language. Most popular programming languages already have a Tree-sitter grammar, but if you need to create one, you can [review the documentation for creating a new parser](https://tree-sitter.github.io/tree-sitter/creating-parsers).
+Next, we require a mature, well-maintained Tree-sitter parser for the language. The parser must publish a Rust crate to [crates.io](https://crates.io/).
 
-**Note:** It will be easier for us to integrate a parser if it publishes a Rust crate to [crates.io](https://crates.io/).
+Most popular programming languages already have a Tree-sitter grammar, but if you need to create one, you can [review the documentation for creating a new parser](https://tree-sitter.github.io/tree-sitter/creating-parsers).
 
 ### Tags query
 
