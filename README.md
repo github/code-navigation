@@ -47,6 +47,9 @@ To add code navigation for a new language, you must follow these steps:
 4. Write fully-qualified name queries (if applicable).
 5. Open an issue in this repo.
 
+> [!NOTE]
+> Adding a language is at the discretion of GitHub. We may not add every language. Common reasons to reject language support include an immature Tree-sitter parser, excessive resources required to parse, or low use on GitHub.
+
 For details, see below.
 
 ### Add the language to Linguist
