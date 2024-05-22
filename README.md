@@ -39,13 +39,21 @@ If your programming language is not one of them, you can help us add it.
 
 ## Adding code navigation for a new language
 
-To add code navigation for a new language, follow the steps below.
+To add code navigation for a new language, you must follow these steps:
 
-### Linguist
+1. Add the language to Linguist.
+2. Define a Tree-sitter parser for the language.
+3. Write tags queries.
+4. Write fully-qualified name queries (if applicable).
+5. Open an issue in this repo.
 
-First, the language must be added to [Linguist](https://github.com/github-linguist/linguist).
+For details, see below.
 
-Linguist is the source of truth for all languages on GitHub. If your language is not included in Linguist, [follow the contribution guidelines](https://github.com/github-linguist/linguist/blob/master/CONTRIBUTING.md#adding-a-language) to get it added.
+### Add the language to Linguist
+
+First, the language must be added to [Linguist](https://github.com/github-linguist/linguist). Linguist is the source of truth for all languages on GitHub.
+
+ You can check to see if the language exists in Linguist by searching the [`languages.yml`](https://github.com/github-linguist/linguist/blob/master/lib/linguist/languages.yml) file. If your language is not included in Linguist, [follow the contribution guidelines](https://github.com/github-linguist/linguist/blob/master/CONTRIBUTING.md#adding-a-language) to get it added.
 
 ### Tree-sitter parser
 
