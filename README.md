@@ -141,5 +141,3 @@ If your language supports nested constructs that are defined separately, include
 ### File a request to add your language
 
 Finally, [create an issue in this repository](https://github.com/github/code-navigation/issues/). We will evaluate adding the parser to the code search indexing system.
-
-We may not add every language. Common reasons to not add a language are an immature Tree-sitter parser, excessive resources required to parse, or low use on GitHub.
