@@ -20,7 +20,7 @@ Rust (https://www.rust-lang.org/)
 
 <!-- 
 
-To add a new language, it must be defined in Linguist (). Enter the language ID and link to the lines in the languages.yml file in Linguist that define the language. 
+To add a new language, it must be defined in Linguist (https://github.com/github-linguist/linguist). Enter the language ID and link to the lines in the languages.yml file in Linguist that define the language. 
 
 Example:
 
