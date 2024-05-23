@@ -57,3 +57,5 @@ Parser URL:
 - [ ] Repository includes tags queries
 - [ ] Tags queries include `@scope` for fully-qualified names (if applicable)
 - [ ] Rust crate: <!-- add URL here -->
+
+<!-- Thanks again for submitting your language for consideration. We may not accept every submission. For more information, see: https://github.com/github/code-navigation?tab=readme-ov-file#adding-code-navigation-for-a-new-language -->
