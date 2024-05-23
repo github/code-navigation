@@ -12,7 +12,7 @@ title: 'Request for new language: <LANGUAGE>'
 
 EXAMPLE:
 
-Blub (https://www.blub-lang.org)
+Rust (https://www.rust-lang.org/)
 
 -->
 
