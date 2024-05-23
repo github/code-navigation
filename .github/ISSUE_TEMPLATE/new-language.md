@@ -24,9 +24,9 @@ To add a new language, it must be defined in Linguist (https://github.com/github
 
 Example:
 
-- [ ] Linguist language name: Java
-- [ ] Linguist language ID: 181
-- [ ] Permalink: https://github.com/github-linguist/linguist/blob/e2012cd67867e6287ae5ee96c8fe0b92f9a88efa/lib/linguist/languages.yml#L3312-L3323 
+- [x] Linguist language name: Rust
+- [x] Linguist language ID: 327
+- [x] Permalink: https://github.com/github-linguist/linguist/blob/e2012cd67867e6287ae5ee96c8fe0b92f9a88efa/lib/linguist/languages.yml#L6228-L6242
 
 -->
 
@@ -36,7 +36,20 @@ Example:
 
 ## Tree-sitter parser
 
-<!-- Include the URL to the Git repository of the Tree-sitter parser. This should be a mature, well-maintained parser and must publish a crate to crates.io. -->
+<!-- 
+
+Include the URL to the Git repository of the Tree-sitter parser. This should be a mature, well-maintained parser and must publish a crate to crates.io. 
+
+Example:
+
+Parser URL: https://github.com/tree-sitter/tree-sitter-rust
+
+- [x] Parser is open source: MIT license
+- [x] Repository includes tags queries
+- [ ] Tags queries include `@scope` for fully-qualified names (if applicable)
+- [x] Rust crate: https://crates.io/crates/tree-sitter-rust
+
+-->
 
 Parser URL: 
 
