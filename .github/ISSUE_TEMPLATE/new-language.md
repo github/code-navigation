@@ -2,9 +2,6 @@
 name: New Language
 about: Request a new language
 title: 'Request for new language: <LANGUAGE>'
-labels: ''
-assignees: ''
-
 ---
 
 <!-- Thank you for submitting a new language to GitHub code navigation. Please fill out the form below, and we'll consider your language for inclusion. -->
