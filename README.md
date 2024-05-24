@@ -140,4 +140,4 @@ If your language supports nested entities that are defined separately, include a
 
 ### File a request to add your language
 
-Finally, [create an issue in this repository](https://github.com/github/code-navigation/issues/). We will evaluate adding the parser to the code search indexing system.
+Finally, [create an issue in this repository](https://github.com/github/code-navigation/issues/new?template=language-support-request.md). We will evaluate adding the parser to the code search indexing system.
