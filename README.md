@@ -141,3 +141,19 @@ If your language supports nested entities that are defined separately, include a
 ### File a request to add your language
 
 Finally, [create an issue in this repository](https://github.com/github/code-navigation/issues/new?template=language-support-request.md). We will evaluate adding the parser to the code search indexing system.
+
+## License
+
+This project is licensed under the terms of the MIT open source license. Please refer to [the license](./LICENSE.txt) for the full terms.
+
+## Maintainers
+
+This project is maintained by members of the GitHub code search team.
+
+## Support
+
+Please file an issue for support. See [SUPPORT.md](./SUPPORT.md) for details.
+
+## Acknowledgments
+
+GitHub code navigation is made possible by the [Tree-sitter](https://tree-sitter.github.io/) ecosystem and all the Tree-sitter parser maintainers. Thank you!
