@@ -28,6 +28,7 @@ Code navigation is supported for the following languages:
 | PHP              | :heavy_check_mark: | :heavy_multiplication_x: |
 | Protocol Buffers | :heavy_check_mark: | :heavy_multiplication_x: |
 | Python           | :heavy_check_mark: | :heavy_check_mark:       |
+| R                | :heavy_check_mark: | :heavy_multiplication_x: |
 | Ruby             | :heavy_check_mark: | :heavy_multiplication_x: |
 | Rust             | :heavy_check_mark: | :heavy_multiplication_x: |
 | Scala            | :heavy_check_mark: | :heavy_multiplication_x: |
