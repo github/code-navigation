@@ -82,6 +82,7 @@ GitHub code navigation supports extracting definitions for these types of symbol
 | Implementation | `@definition.implementation` |
 | Interface      | `@definition.interface`      |
 | Macro          | `@definition.macro`          |
+| Method         | `@definition.method`         |
 | Module         | `@definition.module`         |
 | Struct         | `@definition.struct`         |
 | Trait          | `@definition.trait`          |
