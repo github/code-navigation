@@ -1,11 +1,8 @@
 # GitHub code navigation
 
-GitHub code navigation helps you to read, navigate, and understand code by linking definitions of named symbols (like a class or method) to references to that symbol, as well as linking references to the symbol's definition. GitHub has developed two code navigation approaches:
+GitHub code navigation helps you to read, navigate, and understand code by linking definitions of named symbols (like a class or method) to references to that symbol, as well as linking references to the symbol's definition. GitHub code navigation uses code search to find all definitions and references across a repository to find symbols with a given name.
 
-* **Search-based:** searches all definitions and references across a repository to find symbols with a given name
-* **Precise:** resolves definitions and references based on the set of classes, functions, and imported definitions at a given point in your code
-
-Search-based code navigation is implemented using the [Tree-sitter](https://tree-sitter.github.io/tree-sitter/) parser ecosystem. A few languages support precise code navigation, built with [stack graphs](https://github.com/github/stack-graphs).
+Code navigation is implemented using the [Tree-sitter](https://tree-sitter.github.io/tree-sitter/) parser ecosystem.
 
 For more information, see "[Navigating code on GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/navigating-code-on-github)."
 
@@ -13,28 +10,26 @@ For more information, see "[Navigating code on GitHub](https://docs.github.com/e
 
 Code navigation is supported for the following languages:
 
-| Language         | Search-based       | Precise                  |
-|------------------|--------------------|--------------------------|
-| Bash             | :heavy_check_mark: | :heavy_multiplication_x: |
-| C#               | :heavy_check_mark: | :heavy_multiplication_x: |
-| C++              | :heavy_check_mark: | :heavy_multiplication_x: |
-| CodeQL           | :heavy_check_mark: | :heavy_multiplication_x: |
-| Elixir           | :heavy_check_mark: | :heavy_multiplication_x: |
-| Go               | :heavy_check_mark: | :heavy_multiplication_x: |
-| JSX              | :heavy_check_mark: | :heavy_multiplication_x: |
-| Java             | :heavy_check_mark: | :heavy_multiplication_x: |
-| JavaScript       | :heavy_check_mark: | :heavy_multiplication_x: |
-| Lua              | :heavy_check_mark: | :heavy_multiplication_x: |
-| PHP              | :heavy_check_mark: | :heavy_multiplication_x: |
-| Protocol Buffers | :heavy_check_mark: | :heavy_multiplication_x: |
-| Python           | :heavy_check_mark: | :heavy_check_mark:       |
-| R                | :heavy_check_mark: | :heavy_multiplication_x: |
-| Ruby             | :heavy_check_mark: | :heavy_multiplication_x: |
-| Rust             | :heavy_check_mark: | :heavy_multiplication_x: |
-| Scala            | :heavy_check_mark: | :heavy_multiplication_x: |
-| Starlark         | :heavy_check_mark: | :heavy_multiplication_x: |
-| Swift            | :heavy_check_mark: | :heavy_multiplication_x: |
-| Typescript       | :heavy_check_mark: | :heavy_check_mark:       |
+- Bash
+- C#
+- C++
+- CodeQL
+- Elixir
+- Go
+- JSX
+- Java
+- JavaScript
+- Lua
+- PHP
+- Protocol Buffers
+- Python
+- R
+- Ruby
+- Rust
+- Scala
+- Starlark
+- Swift
+- Typescript
 
 If your programming language is not one of them, you can help us add it.
 
@@ -46,7 +41,7 @@ To add code navigation for a new language, you must follow these steps:
 2. Define a Tree-sitter parser for the language.
 3. Write tags queries.
 4. Write fully-qualified name queries (if applicable).
-5. Open an issue in this repo.
+5. Open an issue in this repository.
 
 For details, see below.
 
