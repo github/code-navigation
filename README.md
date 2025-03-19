@@ -1,8 +1,8 @@
 # GitHub code navigation
 
-GitHub code navigation helps you to read, navigate, and understand code by linking definitions of named symbols (like a class or method) to references to that symbol, as well as linking references to the symbol's definition. GitHub code navigation is **search-based:** it uses code search to find all definitions and references across a repository to find symbols with a given name.
+GitHub code navigation helps you to read, navigate, and understand code by linking definitions of named symbols (like a class or method) to references to that symbol, as well as linking references to the symbol's definition. GitHub code navigation uses code search to find all definitions and references across a repository to find symbols with a given name.
 
-Search-based code navigation is implemented using the [Tree-sitter](https://tree-sitter.github.io/tree-sitter/) parser ecosystem.
+Code navigation is implemented using the [Tree-sitter](https://tree-sitter.github.io/tree-sitter/) parser ecosystem.
 
 For more information, see "[Navigating code on GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/navigating-code-on-github)."
 
